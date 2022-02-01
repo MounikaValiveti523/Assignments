@@ -18,7 +18,7 @@ void swap(int a,int b)
     b=temp;
 } 
 
-/call by reference/
+/*call by reference*/
 #include <stdio.h>
 void swap (int *,int *);
 void main()
