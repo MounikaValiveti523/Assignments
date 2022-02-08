@@ -1,0 +1,17 @@
+#include<stdio.h>
+void rec(int n)
+{
+   int i=0;
+   if(i<n)
+   {
+     printf("%d\n",n);
+     rec(n-1);
+   }
+}
+int main()
+{
+  int n;
+  printf("enter a n value:");
+  scanf("%d",&n);
+  rec(n);
+}
